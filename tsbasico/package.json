@@ -1,10 +1,10 @@
 {
-  "name": "tsbasico-aula",
+  "name": "tsbasico",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "tsc && node ./dist/index.js"
+    "start": "tsc && node dist/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,8 @@
     "typescript": "^3.3.3"
   },
   "dependencies": {
-    "inquirer": "^6.2.2"
+    "axios": "^0.18.0",
+    "inquirer": "^6.2.2",
+    "rxjs": "^6.4.0"
   }
 }
